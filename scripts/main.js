@@ -178,10 +178,10 @@ let mydeckgl = new DeckGL({
     document.getElementById("play").addEventListener("click", play);
     document.getElementById("pause").addEventListener("click", () => pause = true);
 
-document.getElementById('size').innerHTML = 69;   
-document.getElementById('c1').innerHTML = ' > 25 Insolation per cell';  
-document.getElementById('c2').innerHTML = ' > 20 Insolation per cell';  
-document.getElementById('c3').innerHTML = ' > 15 Insolation per cell';  
-document.getElementById('c4').innerHTML = ' > 10 Insolation per cell';  
-document.getElementById('c5').innerHTML = ' > 5 Insolation per cell';  
-document.getElementById('c6').innerHTML = ' < 5 Insolation per cell';  
+document.getElementById('size').innerHTML = 183;   
+document.getElementById('c1').innerHTML = ' > 25 kWh per cell';  
+document.getElementById('c2').innerHTML = ' > 20 kWh per cell';  
+document.getElementById('c3').innerHTML = ' > 15 kWh per cell';  
+document.getElementById('c4').innerHTML = ' > 10 kWh per cell';  
+document.getElementById('c5').innerHTML = ' > 5 kWh per cell';  
+document.getElementById('c6').innerHTML = ' < 5 kWh per cell';  
