@@ -75,6 +75,69 @@ function getcolor (d, c1, c2, c3, c4, c5, n) {
   };
 };
 
+function getval (d, n) {
+  if (n == 1){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.jan;
+    return Number(d.jan)
+  }
+  if (n == 2){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.feb;
+    return Number(d.feb)
+  }
+  if (n == 3){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.mar;
+    return Number(d.mar)
+  }
+  if (n == 4){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.apr;
+    return Number(d.apr)
+  }
+  if (n == 5){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.may;
+    return Number(d.may)
+  }
+  if (n == 6){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.jun;
+    return Number(d.jun)
+  }
+  if (n == 7){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.jul;
+    return Number(d.jul)
+  }
+  if (n == 8){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.aug;
+    return Number(d.aug)
+  }
+  if (n == 9){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.sep;
+    return Number(d.sep)
+  }
+  if (n == 10){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.oct;
+    return Number(d.oct)
+  }
+  if (n == 11){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.nov;
+    return Number(d.nov)
+  }
+  if (n == 12){
+    var ctr = document.getElementById("counter")
+    ctr.innerHTML = d.dec;
+    return Number(d.dec)
+  }
+};
+
 function render (DATA, c1, c2, c3, c4, c5, n) {
   return new deck.H3HexagonLayer({
       id: 'H3HexagonLayer',
@@ -91,6 +154,7 @@ function render (DATA, c1, c2, c3, c4, c5, n) {
 
       opacity: 1,
       pickable: true,
+      onClick: d => console.log(getval(d.object, n)),
     }); 
   
 };
