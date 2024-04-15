@@ -78,62 +78,62 @@ function getcolor (d, c1, c2, c3, c4, c5, n) {
 function getval (d, n) {
   if (n == 1){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.jan;
+    ctr.innerHTML = Math.Round(Number(d.jan, 2));
     return Number(d.jan)
   }
   if (n == 2){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.feb;
+    ctr.innerHTML = Math.Round(Number(d.feb));
     return Number(d.feb)
   }
   if (n == 3){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.mar;
+    ctr.innerHTML = Math.Round(Number(d.mar));
     return Number(d.mar)
   }
   if (n == 4){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.apr;
+    ctr.innerHTML = Math.Round(Number(d.apr));
     return Number(d.apr)
   }
   if (n == 5){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.may;
+    ctr.innerHTML = Math.Round(Number(d.may));
     return Number(d.may)
   }
   if (n == 6){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.jun;
+    ctr.innerHTML = Math.Round(Number(d.jun));
     return Number(d.jun)
   }
   if (n == 7){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.jul;
+    ctr.innerHTML = Math.Round(Number(d.jul));
     return Number(d.jul)
   }
   if (n == 8){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.aug;
+    ctr.innerHTML = Math.Round(Number(d.aug));
     return Number(d.aug)
   }
   if (n == 9){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.sep;
+    ctr.innerHTML = Math.Round(Number(d.sep));
     return Number(d.sep)
   }
   if (n == 10){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.oct;
+    ctr.innerHTML = Math.Round(Number(d.oct));
     return Number(d.oct)
   }
   if (n == 11){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.nov;
+    ctr.innerHTML = Math.Round(Number(d.nov));
     return Number(d.nov)
   }
   if (n == 12){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = d.dec;
+    ctr.innerHTML = Math.Round(Number(d.dec));
     return Number(d.dec)
   }
 };
