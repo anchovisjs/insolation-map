@@ -78,62 +78,62 @@ function getcolor (d, c1, c2, c3, c4, c5, n) {
 function getval (d, n) {
   if (n == 1){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.jan, 2));
+    ctr.innerHTML = Math.round(Number(d.jan, 2));
     return Number(d.jan)
   }
   if (n == 2){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.feb));
+    ctr.innerHTML = Math.round(Number(d.feb));
     return Number(d.feb)
   }
   if (n == 3){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.mar));
+    ctr.innerHTML = Math.round(Number(d.mar));
     return Number(d.mar)
   }
   if (n == 4){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.apr));
+    ctr.innerHTML = Math.round(Number(d.apr));
     return Number(d.apr)
   }
   if (n == 5){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.may));
+    ctr.innerHTML = Math.round(Number(d.may));
     return Number(d.may)
   }
   if (n == 6){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.jun));
+    ctr.innerHTML = Math.round(Number(d.jun));
     return Number(d.jun)
   }
   if (n == 7){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.jul));
+    ctr.innerHTML = Math.round(Number(d.jul));
     return Number(d.jul)
   }
   if (n == 8){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.aug));
+    ctr.innerHTML = Math.round(Number(d.aug));
     return Number(d.aug)
   }
   if (n == 9){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.sep));
+    ctr.innerHTML = Math.round(Number(d.sep));
     return Number(d.sep)
   }
   if (n == 10){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.oct));
+    ctr.innerHTML = Math.round(Number(d.oct));
     return Number(d.oct)
   }
   if (n == 11){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.nov));
+    ctr.innerHTML = Math.round(Number(d.nov));
     return Number(d.nov)
   }
   if (n == 12){
     var ctr = document.getElementById("counter")
-    ctr.innerHTML = Math.Round(Number(d.dec));
+    ctr.innerHTML = Math.round(Number(d.dec));
     return Number(d.dec)
   }
 };
