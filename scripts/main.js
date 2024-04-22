@@ -204,6 +204,7 @@ let mydeckgl = new DeckGL({
     const range = document.getElementById("range");
 
     range.addEventListener("change", () => {
+      var month = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
       const val = parseInt(range.value);
       var value = Number(val);
 
@@ -217,6 +218,7 @@ let mydeckgl = new DeckGL({
       mydeckgl.setProps({ 
           layers: [globe, countries, render(DATA, c1, c2, c3, c4, c5, n)],
         });
+      document.getElementById("monthtext").innerText = month[val - 1];
     });
 
 
