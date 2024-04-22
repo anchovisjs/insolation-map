@@ -247,7 +247,7 @@ let mydeckgl = new DeckGL({
 
 document.getElementById('size').innerHTML = 183;  
 document.getElementById("monthtext").innerText = "январь";
-document.getElementById('c1').innerHTML = ' > 25 кВт/ч на ячейку';  
+document.getElementById('c1').innerHTML = ' > 30 кВт/ч на ячейку';  
 document.getElementById('c2').innerHTML = ' > 20 кВт/ч на ячейку';  
 document.getElementById('c3').innerHTML = ' > 15 кВт/ч на ячейку';  
 document.getElementById('c4').innerHTML = ' > 10 кВт/ч на ячейку';  
