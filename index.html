@@ -74,11 +74,12 @@
   <body>
     <div id = "control-panel">
       <div class='my-legend'>
-        <div class='legend-title'>Insolation map</div>  
+        <div class='legend-title'>Количество приходящей</div> 
+        <div class='legend-title'>прямой солнечной радиации</div> 
         <div>
             <div id="monthrange">
-              <button id="play" class="button button4">Start</button>
-              <button id="pause" class="button button4">Pause</button>
+              <button id="play" class="button button4">начало</button>
+              <button id="pause" class="button button4">пауза</button>
               <input id="range" type="range" name="year" min="1" max="12" value="1" step="1" list="steps"/>
               <datalist id="steps">
                 <option value="1"></option>
@@ -97,34 +98,32 @@
             </div>
             <p2 style="font-size: 18px; display: aria-colcount; color: mintcream; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">месяц:</p2>
             <p1 id="monthtext"style="font-size: 18px; display: aria-colcount; color: mintcream; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-            <span id="monthtext"></span></p1>
+              <span id="monthtext"></span></p1>
         </div>  
         <div class='legend-scale'>
-          <ul class='legend-labels' style="color: mintcream; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+          <ul class='legend-labels' style="font-size: 21px; color: mintcream; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
             <li><span style='background:#6A040F;'></span><p1 id = 'c1'> </p1></span></li>
             <li><span style='background:#9D0208;'></span><p1 id = 'c2'> </p1></span></li>
             <li><span style='background:#D00000;'></span><p1 id = 'c3'> </p1></span></li>
             <li><span style='background:#DC2F02;'></span><p1 id = 'c4'> </p1> </span></li>
             <li><span style='background:#E85D04;'></span><p1 id = 'c5'> </p1></span></li>
             <li><span style='background:#F48C06;'></span><p1 id = 'c6'> </p1></span> </li>
-
-            <span style="color: rgb(176, 197, 209); font-size: 50px;">&#x2B22;
-              <span style="font-size: 21px; display: inline; 
+            <span class="container" style="color: rgb(176, 197, 209); font-size: 50px;">&#x2B22;
+              <span style="font-size: 22px; display: inline; 
                       color: mintcream; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> 
-                    <li> edge length </li>
-                    <li>in kilometers</li> 
-                    <li id = "size"> </li>
+                    <li> длина ребра </li>
+                    <li>ячейки в км:</li> 
+                    <li id = "size"> </li>  
                  </span>
-            </span>
-            <p>
-            <span style="font-size: 21px; display: inline; 
+                </span>
+                <p>
+            <span style="font-size: 22px; display: inline; 
                 color: mintcream; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> 
-              <li> kWh per selected cel </li>
+              <li style="font-size: 18px;"> кВт/ч на выбранную ячейку: </li>
               <li><div id="counter">0</div></li>
             </span>
-            </p>
           </ul>
-        </div>   
+        </div>  
         <style type='text/css'>
           .my-legend .legend-title {
             text-align: left;
