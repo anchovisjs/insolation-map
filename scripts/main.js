@@ -245,7 +245,8 @@ let mydeckgl = new DeckGL({
     document.getElementById("play").addEventListener("click", play);
     document.getElementById("pause").addEventListener("click", () => pause = true);
 
-document.getElementById('size').innerHTML = 183;   
+document.getElementById('size').innerHTML = 183;  
+document.getElementById("monthtext").innerText = "январь";
 document.getElementById('c1').innerHTML = ' > 25 kWh per cell';  
 document.getElementById('c2').innerHTML = ' > 20 kWh per cell';  
 document.getElementById('c3').innerHTML = ' > 15 kWh per cell';  
