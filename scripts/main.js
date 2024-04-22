@@ -247,9 +247,9 @@ let mydeckgl = new DeckGL({
 
 document.getElementById('size').innerHTML = 183;  
 document.getElementById("monthtext").innerText = "январь";
-document.getElementById('c1').innerHTML = ' > 25 kWh per cell';  
-document.getElementById('c2').innerHTML = ' > 20 kWh per cell';  
-document.getElementById('c3').innerHTML = ' > 15 kWh per cell';  
-document.getElementById('c4').innerHTML = ' > 10 kWh per cell';  
-document.getElementById('c5').innerHTML = ' > 5 kWh per cell';  
-document.getElementById('c6').innerHTML = ' < 5 kWh per cell';  
+document.getElementById('c1').innerHTML = ' > 25 кВт/ч на ячейку';  
+document.getElementById('c2').innerHTML = ' > 20 кВт/ч на ячейку';  
+document.getElementById('c3').innerHTML = ' > 15 кВт/ч на ячейку';  
+document.getElementById('c4').innerHTML = ' > 10 кВт/ч на ячейку';  
+document.getElementById('c5').innerHTML = ' > 5 кВт/ч на ячейку';  
+document.getElementById('c6').innerHTML = ' < 5 кВт/ч на ячейку';  
