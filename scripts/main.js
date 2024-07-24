@@ -1,6 +1,6 @@
       
 var {DeckGL, GeoJsonLayer, H3HexagonLayer, _GlobeView, SimpleMeshLayer, H3ClusterLayer} = deck;
-var DATA = '.../data/insol_points_res2_3_1.csv'; 
+var DATA = './data/insol_points_res2_3_1.csv'; 
 var c10 = 30; 
 var c20 = 20;
 var c30 = 15; 
